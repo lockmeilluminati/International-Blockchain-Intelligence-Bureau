@@ -1,6 +1,6 @@
 # International-Blockchain-Intelligence-Bureau
 
-UBUNTU instructions 
+UBUNTU instructions
 
 when you make a script 1 command may break and not work so that you can trouble shoot run each command 1 at a time .
 To Make the Scanner Work , you need to run , python3 SuperScanner.py
