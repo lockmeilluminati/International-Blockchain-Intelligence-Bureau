@@ -1,7 +1,7 @@
 # International-Blockchain-Intelligence-Bureau
 
 UBUNTU instructions
-
+THE SuperScanner.py has to be inside the Solscan folder then open the terminal inside that same folder and run "python3 SuperScanner.py
 when you make a script 1 command may break and not work so that you can trouble shoot run each command 1 at a time .
 To Make the Scanner Work , you need to run , python3 SuperScanner.py
 to make that 1 file work you need to install everything :
