@@ -6,7 +6,7 @@
 3. Running the Scanner
 
 ## 1. Prerequisites
-
+-Serious note , i made sure not to use virtual environments on purpose so each app runs globally from anywhere in the terminal .
 - Ubuntu system
 - Python 3 installed
 - Terminal access
