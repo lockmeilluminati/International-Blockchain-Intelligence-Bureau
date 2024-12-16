@@ -128,10 +128,17 @@ solc-select install 0.8.28<br>
 
 
 
-6. Install additional tools:
+## 2. Install the Scanners 
 
-pip3 install slither mythril falcon wake git clone https://github.com/riczardo/solscan cd solscan pip install click termcolor pyfiglet
-
+pip3 install slither<br>
+pip3 install mythril<br>
+pip3 install falcon<br>
+pip3 install wake<br>
+3.Solc Scan<br>
+git clone https://github.com/riczardo/solscan<br>
+pip install click<br>
+pip install termcolor<br>
+pip install pyfiglet<br>
 
 ## 3. Running the Scanner
 
