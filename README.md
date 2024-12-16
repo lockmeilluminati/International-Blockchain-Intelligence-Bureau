@@ -13,10 +13,7 @@
 
 ## 2. Installation Steps
 
-1. Create a new directory for the project:
-
-mkdir Solscan cd Solscan
-
+1. Once you download solcscan we will put the superscanner.py file in there and run it 
 
 2. Download the SuperScanner.py file into this directory.
 
