@@ -24,7 +24,11 @@ mkdir Solscan cd Solscan
 
 4. Install required dependencies:
 
-sudo apt install python3-tk python3-pip sudo add-apt-repository ppa:ethereum/ethereum sudo apt-get update sudo apt-get install solc pip3 install solc-select
+sudo apt install python3-tk<br>
+sudo add-apt-repository ppa:ethereum/ethereum <br>
+sudo apt-get update<br>
+sudo apt-get install solc<br>
+pip3 install solc-select<br>
 
 
 5. Install specific Solidity compiler versions:
