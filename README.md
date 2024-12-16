@@ -28,11 +28,99 @@ sudo apt install python3-tk python3-pip sudo add-apt-repository ppa:ethereum/eth
 
 
 5. Install specific Solidity compiler versions:
-<html>
-<body>
-<p>solc-select install 0.4.0</p>
-</body>
-</html>
+solc-select install 0.4.0<br>
+solc-select install 0.4.1<br>
+solc-select install 0.4.2<br>
+solc-select install 0.4.3<br>
+solc-select install 0.4.4<br>
+solc-select install 0.4.5<br>
+solc-select install 0.4.6<br>
+solc-select install 0.4.7<br>
+solc-select install 0.4.8<br>
+solc-select install 0.4.9<br>
+solc-select install 0.4.10<br>
+solc-select install 0.4.11<br>
+solc-select install 0.4.12<br>
+solc-select install 0.4.13<br>
+solc-select install 0.4.14<br>
+solc-select install 0.4.15<br>
+solc-select install 0.4.16<br>
+solc-select install 0.4.17<br>
+solc-select install 0.4.18<br>
+solc-select install 0.4.19<br>
+solc-select install 0.4.20<br>
+solc-select install 0.4.21<br>
+solc-select install 0.4.22<br>
+solc-select install 0.4.23<br>
+solc-select install 0.4.24<br>
+solc-select install 0.4.25<br>
+solc-select install 0.4.26<br>
+solc-select install 0.5.0<br>
+solc-select install 0.5.1<br>
+solc-select install 0.5.2<br>
+solc-select install 0.5.3<br>
+solc-select install 0.5.4<br>
+solc-select install 0.5.5<br>
+solc-select install 0.5.6<br>
+solc-select install 0.5.7<br>
+solc-select install 0.5.8<br>
+solc-select install 0.5.9<br>
+solc-select install 0.5.10<br>
+solc-select install 0.5.11<br>
+solc-select install 0.5.12<br>
+solc-select install 0.5.13<br>
+solc-select install 0.5.14<br>
+solc-select install 0.5.15<br>
+solc-select install 0.6.0<br>
+solc-select install 0.6.1<br>
+solc-select install 0.6.2<br>
+solc-select install 0.6.3<br>
+solc-select install 0.6.4<br>
+solc-select install 0.6.5<br>
+solc-select install 0.6.6<br>
+solc-select install 0.6.7<br>
+solc-select install 0.6.8<br>
+solc-select install 0.6.9<br>
+solc-select install 0.6.10<br>
+solc-select install 0.6.11<br>
+solc-select install 0.6.12<br>
+solc-select install 0.7.0<br>
+solc-select install 0.7.1<br>
+solc-select install 0.7.2<br>
+solc-select install 0.7.3<br>
+solc-select install 0.7.4<br>
+solc-select install 0.7.5<br>
+solc-select install 0.7.6<br>
+solc-select install 0.8.0<br>
+solc-select install 0.8.1<br>
+solc-select install 0.8.2<br>
+solc-select install 0.8.3<br>
+solc-select install 0.8.4<br>
+solc-select install 0.8.5<br>
+solc-select install 0.8.6<br>
+solc-select install 0.8.7<br>
+solc-select install 0.8.8<br>
+solc-select install 0.8.9<br>
+solc-select install 0.8.10<br>
+solc-select install 0.8.11<br>
+solc-select install 0.8.12<br>
+solc-select install 0.8.13<br>
+solc-select install 0.8.14<br>
+solc-select install 0.8.15<br>
+solc-select install 0.8.16<br>
+solc-select install 0.8.17<br>
+solc-select install 0.8.18<br>
+solc-select install 0.8.19<br>
+solc-select install 0.8.20<br>
+solc-select install 0.8.21<br>
+solc-select install 0.8.22<br>
+solc-select install 0.8.23<br>
+solc-select install 0.8.24<br>
+solc-select install 0.8.25<br>
+solc-select install 0.8.26<br>
+solc-select install 0.8.27<br>
+solc-select install 0.8.28<br>
+
 
 
 
