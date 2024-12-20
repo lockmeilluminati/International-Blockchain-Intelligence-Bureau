@@ -122,7 +122,16 @@ solc-select install 0.8.26<br>
 solc-select install 0.8.27<br>
 solc-select install 0.8.28<br>
 
+## we need to install forge :
 
+mkdir foundry
+cd foundry
+curl -L https://foundry.paradigm.xyz | bash
+source ~/.bashrc 
+foundryup
+update it by running 
+foundryup
+forge init 
 
 
 ## 2. Install the Scanners 
