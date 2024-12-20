@@ -136,7 +136,9 @@ git clone https://github.com/riczardo/solscan<br>
 pip install click<br>
 pip install termcolor<br>
 pip install pyfiglet<br>
-
+curl -L https://raw.githubusercontent.com/Cyfrin/aderyn/dev/cyfrinup/install | bash
+cyfrinup
+forge build
 ## 3. Running the Scanner
 
 To run the scanner:
