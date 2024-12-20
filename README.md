@@ -1,4 +1,5 @@
 [![Video Title](https://img.youtube.com/vi/9y8zN0GBoOs/0.jpg)](https://youtu.be/9y8zN0GBoOs?feature=shared)
+click for video
 # SuperScanner Setup Guide for Ubuntu
 
 ## Table of Contents
