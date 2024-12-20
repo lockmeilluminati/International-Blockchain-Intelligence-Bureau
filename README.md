@@ -132,7 +132,9 @@ foundryup<br>
 update it by running<br> 
 foundryup<br>
 forge init<br> 
-
+git clone https://github.com/Cyfrin/aderyn-contracts-playground.git
+cd aderyn-contracts-playground
+forge build
 
 ## 2. Install the Scanners 
 
