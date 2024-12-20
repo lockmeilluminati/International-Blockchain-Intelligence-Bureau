@@ -145,7 +145,7 @@ To run the scanner:
 
 2. Run the following command:
 
-python3 SuperScanner.py
+python3 scannerbeta.py
 
 
 Important notes:
@@ -156,7 +156,7 @@ Important notes:
 ## Troubleshooting
 
 If you encounter issues during installation or execution, please consult the official GitHub repositories for each tool:
-
+- Aderyn: https://github.com/Cyfrin/aderyn?tab=readme-ov-file
 - Solscan: https://github.com/riczardo/solscan
 - Slither: https://github.com/crytic/slither
 - Mythril: https://github.com/Consensys/mythril
