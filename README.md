@@ -188,7 +188,7 @@ git clone https://github.com/riczardo/solscan<br>
 pip install click<br>
 pip install termcolor<br>
 pip install pyfiglet<br>
-## aderynbr>
+## aderyn<br>
 sudo apt install curl
 curl -L https://raw.githubusercontent.com/Cyfrin/aderyn/dev/cyfrinup/install | bash
 cyfrinup
