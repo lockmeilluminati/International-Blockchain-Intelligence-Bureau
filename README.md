@@ -189,13 +189,13 @@ pip install click<br>
 pip install termcolor<br>
 pip install pyfiglet<br>
 ## aderyn<br>
-sudo apt install curl
-curl -L https://raw.githubusercontent.com/Cyfrin/aderyn/dev/cyfrinup/install | bash
-cyfrinup
-cyfrinup
-git clone https://github.com/Cyfrin/aderyn-contracts-playground.git
-cd aderyn-contracts-playground
-forge build
+sudo apt install curl<br>
+curl -L https://raw.githubusercontent.com/Cyfrin/aderyn/dev/cyfrinup/install | bash<br>
+cyfrinup<br>
+cyfrinup<br>
+git clone https://github.com/Cyfrin/aderyn-contracts-playground.git<br>
+cd aderyn-contracts-playground<br>
+forge build<br>
 
 
 ## 3. Running the Scanner
