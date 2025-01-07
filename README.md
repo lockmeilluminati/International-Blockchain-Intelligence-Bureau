@@ -12,6 +12,8 @@ click for video
 - Ubuntu system
 - Python 3 installed
 - Terminal access
+- pip3 command : sudo apt install python3-pip
+
 
 ## 2. Installation Steps
 
@@ -31,6 +33,34 @@ pip3 install solc-select<br>
 
 
 5. Install specific Solidity compiler versions:
+
+to get solc to run globally you need to do this :<br>
+
+    Open your home directory's .bashrc file in a text editor:<br>
+
+nano ~/.bashrc<br>
+
+    Add the following line at the end of the file:<br>
+
+export PATH="$HOME/.local/bin:$PATH"<br>
+
+This adds the directory containing Python's executable scripts (which includes solc-select) to your PATH.<br>
+
+    Save the file and exit the editor (in nano, press Ctrl+X, then Y, then Enter).<br>
+
+    To apply the changes immediately without restarting your terminal, run:<br>
+
+source ~/.bashrc<br>
+
+    Verify that solc-select is now accessible by running:<br>
+
+solc-select --version<br>
+
+If you still encounter issues, you can try adding the specific directory where solc-select is installed:
+
+
+
+
 solc-select install 0.4.0<br>
 solc-select install 0.4.1<br>
 solc-select install 0.4.2<br>
@@ -139,19 +169,35 @@ cd aderyn-contracts-playground
 forge build
 
 ## 2. Install the Scanners 
+## Slither<br>
+python3 -m pip install slither-analyzer<br>
 
-pip3 install slither<br>
+## mythril<br>
 pip3 install mythril<br>
-pip3 install falcon<br>
-pip3 install wake<br>
+
+## Falcon<br>
+git clone https://github.com/MetaTrustLabs/falcon-metatrust.git<br>
+cd falcon-metatrust<br>
+pip3 install -r requirements-dev.txt<br>
+python setup.py install<br>
+## wake<br>
+pip3 install eth-wake<br>
+## Solc Scan<br>
 3.Solc Scan<br>
 git clone https://github.com/riczardo/solscan<br>
 pip install click<br>
 pip install termcolor<br>
 pip install pyfiglet<br>
+## aderynbr>
+sudo apt install curl
 curl -L https://raw.githubusercontent.com/Cyfrin/aderyn/dev/cyfrinup/install | bash
 cyfrinup
+cyfrinup
+git clone https://github.com/Cyfrin/aderyn-contracts-playground.git
+cd aderyn-contracts-playground
 forge build
+
+
 ## 3. Running the Scanner
 
 To run the scanner:
