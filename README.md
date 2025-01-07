@@ -36,23 +36,23 @@ pip3 install solc-select<br>
 
 to get solc to run globally you need to do this :<br>
 
-    Open your home directory's .bashrc file in a text editor:<br>
+Open your home directory's .bashrc file in a text editor:<br>
 
 nano ~/.bashrc<br>
 
-    Add the following line at the end of the file:<br>
+Add the following line at the end of the file:<br>
 
 export PATH="$HOME/.local/bin:$PATH"<br>
 
 This adds the directory containing Python's executable scripts (which includes solc-select) to your PATH.<br>
 
-    Save the file and exit the editor (in nano, press Ctrl+X, then Y, then Enter).<br>
+Save the file and exit the editor (in nano, press Ctrl+X, then Y, then Enter).<br>
 
-    To apply the changes immediately without restarting your terminal, run:<br>
+To apply the changes immediately without restarting your terminal, run:<br>
 
 source ~/.bashrc<br>
 
-    Verify that solc-select is now accessible by running:<br>
+Verify that solc-select is now accessible by running:<br>
 
 solc-select --version<br>
 
@@ -189,6 +189,13 @@ pip install click<br>
 pip install termcolor<br>
 pip install pyfiglet<br>
 ## aderyn<br>
+sudo apt install curl
+curl -L https://raw.githubusercontent.com/Cyfrin/aderyn/dev/cyfrinup/install | bash
+cyfrinup
+cyfrinup
+git clone https://github.com/Cyfrin/aderyn-contracts-playground.git
+cd aderyn-contracts-playground
+forge build
 sudo apt install curl<br>
 curl -L https://raw.githubusercontent.com/Cyfrin/aderyn/dev/cyfrinup/install | bash<br>
 cyfrinup<br>
@@ -225,5 +232,4 @@ If you encounter issues during installation or execution, please consult the off
 - Wake: https://github.com/Ackee-Blockchain/wake
 
 By following these steps, you should have a fully functional setup for running the SuperScanner.py on your Ubuntu system.
-
 
