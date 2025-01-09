@@ -4,7 +4,7 @@
 
 [![Video Title](https://img.youtube.com/vi/IZPx7gsczAI/0.jpg)](https://youtu.be/IZPx7gsczAI)
 
-click for install help video
+click image above for help video
 install with Docker<br>
 docker pull doctorgraphene/superscanner:latest<br>
 docker run -e DISPLAY=unix$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix --privileged myrustapp<br>
