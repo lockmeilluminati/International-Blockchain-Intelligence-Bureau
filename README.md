@@ -1,3 +1,22 @@
+# SuperScanner Setup Guide for Ubuntu
+
+## 1. Docker Install<br>
+install with Docker<br>
+docker pull doctorgraphene/superscanner:latest<br>
+docker run -e DISPLAY=unix$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix --privileged myrustapp<br>
+instead of myrustapp at the end it may be the scanner name still trying to figure it out 
+
+
+
+
+
+
+
+
+
+
+
+
 [![Video Title](https://img.youtube.com/vi/9y8zN0GBoOs/0.jpg)](https://youtu.be/9y8zN0GBoOs?feature=shared)
 click for video
 # SuperScanner Setup Guide for Ubuntu
