@@ -82,7 +82,7 @@ solc-select --version<br>
 If you still encounter issues, you can try adding the specific directory where solc-select is installed:
 
 
-
+jesus i just firgured out you can run "solc-select install all" <br>
 
 solc-select install 0.4.0<br>
 solc-select install 0.4.1<br>
