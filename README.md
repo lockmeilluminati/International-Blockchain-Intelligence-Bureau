@@ -18,7 +18,10 @@
 ## Table of Contents
 1. Download Super installer
 2. open terminal where you downloaded it , then run "python3 Superinstaller.py "
-3. Running the Scanner is simple run all steps or run 1 by 1 to trouble shoot 
+3. Running the Scanner is simple run all steps or run 1 by 1 to trouble shoot you need all the dependancies
+4. Download the SourcifyMultichaindownloader.sol have this next to your Superscanner2026.py file.
+5. Download the Superscanner2026.py and run it , if it fails give gpt or gemini your file structure and tell it to update the code based on where you put the SourceifyMultichaindownloader.sol and make the Ai know your directory for all the scanners as well then ask it to remake the code based on your file structure .
+6. then you should be able to run once you remake the code for your file structure.
 
 <br>
  
