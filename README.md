@@ -16,7 +16,7 @@
 
 ## Table of Contents
 1. Download Super installer
-2. open terminal where you downloaded it , then run "python3 Superinstaller"
+2. open terminal where you downloaded it , then run "python3 Superinstaller.py "
 3. Running the Scanner is simple run all steps or run 1 by 1 to trouble shoot 
 
 <br>
