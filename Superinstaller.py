@@ -144,11 +144,13 @@ INSTALLATION_STEPS = [
         "commands": [
             "rm -rf solscan && git clone https://github.com/riczardo/solscan.git",
             "pip3 install --target=./solscan click termcolor pyfiglet",
-            f"""printf '#!/bin/bash\\npython3 $(pwd)/solscan/main.py "$@"\\n' | sudo tee {GLOBAL_BIN_DIR}/solcscan > /dev/null""",
+            # This command now gets the absolute path to main.py at creation time, making the link robust.
+            # CORRECTED LINE: Using triple quotes f"""...""" to handle nested quotes correctly.
+            f"""MAIN_PY_PATH=$(readlink -f ./solscan/main.py); printf '#!/bin/bash\\npython3 %s "$@"\\n' "$MAIN_PY_PATH" | sudo tee {GLOBAL_BIN_DIR}/solcscan > /dev/null""",
             f"sudo chmod +x {GLOBAL_BIN_DIR}/solcscan",
             "echo 'Solc-Scan and its dependencies installed in the ./solscan directory and linked globally.'"
         ],
-        "info": "Clones Solc-Scan, installs dependencies into the tool's folder, and creates a global 'solcscan' command."
+        "info": "Clones Solc-Scan, installs dependencies, and creates a robust global 'solcscan' command."
     },
     {
         "title": "Install All Solidity Compiler Versions",
