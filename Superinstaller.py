@@ -16,12 +16,19 @@ GLOBAL_BIN_DIR = os.path.join(HOME_DIR, '.local/bin')
 # These steps are updated to create isolated virtual environments for each scanner.
 INSTALLATION_STEPS = [
     {
-        "title": "Install Prerequisites (pip, tk, git, curl, venv)",
+        "title": "Install Prerequisites (pip, tk, git, curl, venv, Qt)",
         "commands": [
             "sudo apt update",
-            "sudo apt install -y python3-pip python3-tk git curl python3-venv",
+            "sudo apt install -y python3-pip python3-tk git curl python3-venv libxcb-xinerama0",
         ],
-        "info": "Installs pip, tkinter, git, curl, and the 'venv' module for creating virtual environments."
+        "info": "Installs pip, tkinter, git, curl, the 'venv' module, and the required Qt platform plugin library (libxcb-xinerama0)."
+    },
+    {
+        "title": "Install Core Application Dependencies (PyQt5, etc.)",
+        "commands": [
+            "pip3 install PyQt5 requests",
+        ],
+        "info": "Installs the core Python libraries required to run the main SuperScanner application GUI."
     },
     {
         "title": "Install Ethereum Tooling (solc & solc-select)",
@@ -73,6 +80,14 @@ INSTALLATION_STEPS = [
             f"source {HOME_DIR}/.bashrc && aderyn-update"
         ],
         "info": "Runs Aderyn to initialize it and then updates it. The 'source' command is required for the script to find 'aderyn' right after installation."
+    },
+    {
+        "title": "Setup Aderyn Contracts Playground",
+        "commands": [
+            "rm -rf aderyn-contracts-playground && git clone https://github.com/Cyfrin/aderyn-contracts-playground.git",
+            f"cd aderyn-contracts-playground && source {HOME_DIR}/.bashrc && forge build && cd .."
+        ],
+        "info": "Clones and builds the contracts playground to test the Aderyn and Foundry setup."
     },
     {
         "title": "Create Directory for Other Scanner Venvs",
@@ -255,4 +270,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
