@@ -1,3 +1,7 @@
+join my team let's hack n talk 
+
+https://discord.gg/se8C7ukW
+
 # SuperScanner Setup File and Super Scanner
 
 ![Screenshot from 2025-06-15 12-49-33](https://github.com/user-attachments/assets/81ca6ba3-fba8-4d45-b929-d04b59cb8a07)
